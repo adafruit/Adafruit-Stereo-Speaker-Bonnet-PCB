@@ -18,7 +18,7 @@ Each order comes as a fully tested and assembled PCB and 2x extra terminal block
 
 #### 2021-11-29 swap left and right channels 
 
-Swap channels on PCB. This impacts only the speakers connected via JST-PH header X3 when replacing the board. The revision is now called "B+".
+Swap channels on PCB. This impacts only the speakers connected via JST-PH header X3 when replacing the board. The revision is now called "B+". Component coordinates and paste stencil of Rev B can be re-used.
 
 ![](assets/20211129_brd.png)
 
