@@ -16,6 +16,15 @@ Each order comes as a fully tested and assembled PCB and 2x extra terminal block
 
 ### Updates
 
+#### 2021-11-29 swap left and right channels 
+
+Swap channels on PCB. This impacts only the speakers connected via JST-PH header X3 when replacing the board. The revision is now called "B+".
+
+![](assets/20211129_brd.png)
+
+\- HW
+
+
 #### 2021-11-29 implement shutdown option to fix pop issue
 
 Problem: MAX98357A used here needs to be disabled when no clocks are present to avoid pops during boot.
@@ -25,6 +34,8 @@ Fix: Project files have been updated to include an option to connect !SD_MODE in
 Modification instructions for previous PCB revision: Below is a description how to modify the older PCB version to implement the fix. R1 (394) needs to be replaced with 220k soldered to one pad only as shown in the crop. the LEFT channel pin 4 trace going to the capacitors needs to be cut near the capacitors. Subsequently, part of the remaining trace is exposed and tinned to form a new pad.  GPIO4, the new pad, as well as the unconnected pad of the 220k resistor need to be connected using thin (<= 0.3 mm) enamel wire or equivalent.
 
 ![](assets/rework_to_add_shutdown_gpio4.png)
+
+\- HW
 
 ### License
 
